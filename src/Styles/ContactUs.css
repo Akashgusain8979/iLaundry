@@ -1,0 +1,16 @@
+/* src/styles/ContactUs.css */
+.contact-container {
+  padding: 30px;
+  background-color: #f4f4f4;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+}

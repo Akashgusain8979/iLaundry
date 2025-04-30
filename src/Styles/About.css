@@ -1,0 +1,16 @@
+/* src/styles/AboutUs.css */
+.about-container {
+  padding: 30px;
+  background-color: #f9f9f9;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+}

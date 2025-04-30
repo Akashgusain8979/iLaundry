@@ -1,0 +1,68 @@
+/* src/styles/OrderCard.css */
+.order-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.order-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-card-header h3 {
+  font-size: 18px;
+  color: #007bff;
+}
+
+.status {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 12px;
+  text-transform: capitalize;
+}
+
+.status.inprogress {
+  background-color: #ffcc00;
+  color: #fff;
+}
+
+.status.completed {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.status.pending {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.order-card-body p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.order-card-footer {
+  margin-top: 15px;
+}
+
+.track-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.track-btn:hover {
+  background-color: #0056b3;
+}
